@@ -1,0 +1,14 @@
+{
+  "name": "node-expense",
+  "version": "0.0.0",
+  "description": "Expense App",
+  "main": "server.js",
+  "author": "Souji",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "method-override": "^2.1.3",
+    "mongoose": "^4.4.12",
+    "morgan": "^1.1.1"
+  }
+}

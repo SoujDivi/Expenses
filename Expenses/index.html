@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-resource.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+<script type="text/javascript" src="/controller/expense.js"></script>
+<script type="text/javascript" src="/services/service.js"></script>
+
+</head>
+<body ng-app="expensesApp">
+
+<div  ng-controller="expenseCtrl">
+
+<ul>
+	<li>
+		<input type="text" ng-model="expense" placeholder="add expense">
+		<input type="text" ng-model="expenseAmount" placeholder="amount">
+		<button type="submit" ng-click="addExpense()">ADD</button>
+		<button type="submit" ng-click="getExpense()">GET</button>
+	</li>
+</ul>
+</div>
+
+
+</body>
+</html>
